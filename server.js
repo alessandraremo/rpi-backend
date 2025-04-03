@@ -11,7 +11,7 @@ app.use(express.json()); // Add this to parse JSON requests
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-const RPI_IP = 'raspberrypi.local';  
+const RPI_IP = '192.168.1.11';  
 const USERNAME = 'user1';
 const PASSWORD = '1234';
 const SCRIPT_PATH = '/home/user1/Desktop/THIRDVISION FILES/new season/MARCH28-USERNAME-WITHCOVER.py';
